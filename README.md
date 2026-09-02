@@ -10,9 +10,4 @@ Architectural Highlights:
 * Batch Ingestion: Supports bulk CSV processing for rapid historical data backfilling or offline sensor syncs.
 * Real-Time Observation: Integrated Jinja2 and Tailwind CSS dashboard for live monitoring and direct CRUD operations on sensor data.
 
-Technology Stack
-Layer,Technology
-Framework,"FastAPI, Pydantic"
-Database,"SQLite, SQLAlchemy (Async), aiosqlite"
-Frontend,"HTML5, Tailwind CSS, Vanilla JS, Jinja2"
-Concurrency,"Python asyncio, FastAPI BackgroundTasks"
+Technology StackLayerTechnologyFrameworkFastAPI, PydanticDatabaseSQLite, SQLAlchemy (Async), aiosqliteFrontendHTML5, Tailwind CSS, Vanilla JS, Jinja2ConcurrencyPython asyncio, FastAPI BackgroundTasks
