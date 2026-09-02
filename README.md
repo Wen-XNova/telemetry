@@ -1,4 +1,5 @@
 <img width="1295" height="832" alt="telemetry" src="https://github.com/user-attachments/assets/a326cdf6-6f8a-402a-acdd-ef65bdf0e205" />
+
 # Telemetry Ingestion Engine
 
 An asynchronous data pipeline and monitoring dashboard engineered to handle device telemetry. The architecture leverages decoupled background tasks for database write operations, ensuring the ingestion endpoints remain highly available and responsive under load.
