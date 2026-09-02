@@ -5,9 +5,9 @@ An asynchronous data pipeline and monitoring dashboard engineered to handle devi
 
 Architectural Highlights
 
-Asynchronous I/O: Fully non-blocking architecture from API routing down to the database layer utilizing aiosqlite and SQLAlchemy 2.0.
+** Asynchronous I/O: Fully non-blocking architecture from API routing down to the database layer utilizing aiosqlite and SQLAlchemy 2.0.
 
-    Decoupled Processing: Incoming metric payloads are immediately acknowledged and handed off to background workers, protecting the main event loop from I/O latency.
+ * Decoupled Processing: Incoming metric payloads are immediately acknowledged and handed off to background workers, protecting the main event loop from I/O latency.
 
     Strict Payload Validation: Enforces data integrity at the boundary using Pydantic schemas before any database interaction occurs.
 
